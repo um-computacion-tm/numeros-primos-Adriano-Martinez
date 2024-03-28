@@ -8,7 +8,7 @@ def is_primo(value):
         div += 1
     return True
     
-    
+
 class TestPrimos(unittest.TestCase):
     def test_1(self):
         result = is_primo(1)
@@ -34,5 +34,6 @@ class TestPrimos(unittest.TestCase):
         result = is_primo(6)
         self.assertEqual(result, False)
 
+if __name__ == '__main__':
 
-unittest.main()
+    unittest.main()
